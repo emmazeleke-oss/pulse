@@ -49,8 +49,8 @@ src/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/pulsegrid-system.git
-cd pulsegrid-system/src
+git clone https://github.com/your-username/pulse.git
+cd pulse/src
 2. Compile the project
 javac pulsegrid/core/*.java pulsegrid/app/MainApp.java
 3. Run the program
