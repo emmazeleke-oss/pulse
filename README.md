@@ -1,70 +1,75 @@
-⚡️ PulseGrid System
+# ⚡️ PulseGrid System
 
-A Java-based Object-Oriented Programming project designed to demonstrate core inheritance concepts through a dynamic role-based system.
+A Java-based Object-Oriented Programming (OOP) project built to demonstrate inheritance and related concepts through a structured role-based system.
 
-📌 Overview
+---
 
-PulseGrid models a system where different entities — Users, Active Users, and Admins — interact within a structured inheritance hierarchy.
+## 📌 Overview
 
-The project focuses on behavior and relationships, making OOP concepts like inheritance, method overriding, and access control easy to understand through execution flow.
+PulseGrid models a system where different entities — User, ActiveUser, and Admin — interact within a clear inheritance hierarchy.
 
+The focus is on behavior, relationships, and code structure, making core OOP concepts easy to understand through execution.
 
+---
 
-🧠 Concepts Covered
-Class Inheritance (extends)
-Superclass vs Subclass
-Single Inheritance
-Multilevel Inheritance
-Hierarchical Inheritance
-Method Overriding
-this Keyword
-super Keyword (methods & constructors)
-super() Constructor Calls
-Protected Access Modifier
-Method Hiding (static methods)
-final Class
-final Method
-Package Structure & Visibility
-Implicit super() behavior
-Java Multiple Inheritance Restriction
-🏗 Project Structure
+## 🧠 Concepts Demonstrated
 
+- Class Inheritance (extends)
+- Superclass vs Subclass
+- Single, Multilevel & Hierarchical Inheritance
+- Method Overriding
+- this and super keywords
+- Constructor chaining (super())
+- Protected Access Modifier
+- Method Hiding (static methods)
+- final class and methods
+- Package structure & visibility
+- Java Multiple Inheritance restriction
 
+---
+
+## 🏗 Project Structure
 
 
 src/
 └── pulsegrid/
-    ├── core/
-    │    ├── Entity.java
-    │    ├── User.java
-    │    ├── ActiveUser.java
-    │    ├── Admin.java
-    │    └── SystemLock.java
-    └── app/
-         └── MainApp.java
+├── core/
+│ ├── Entity.java
+│ ├── User.java
+│ ├── ActiveUser.java
+│ ├── Admin.java
+│ └── SystemLock.java
+└── app/
+└── MainApp.java
 
 
-         
-▶️ How to Run
-Open terminal inside the src folder
-Compile:
+---
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/pulsegrid-system.git
+cd pulsegrid-system/src
+2. Compile the project
 javac pulsegrid/core/*.java pulsegrid/app/MainApp.java
-Run:
+3. Run the program
 java pulsegrid.app.MainApp
-
-
-
 ⚙️ Key Features
 Clear inheritance hierarchy with real execution flow
 Demonstrates method overriding and method hiding
-Practical use of super and this keywords
-Includes final class and final method restrictions
-Organized using proper Java package structure
-
-
+Proper use of super and this
+Includes final class and method restrictions
+Organized using Java packages
 🎯 Purpose
 
-This project was developed as part of an Object-Oriented Programming assignment to demonstrate a strong understanding of inheritance and related Java concepts through a structured and functional system.
+This project was created as part of an OOP assignment to demonstrate a solid understanding of Java inheritance and class relationships in a practical way.
+
+🚀 Future Improvements
+Add user input (Scanner)
+Add GUI (JavaFX or Swing)
+Expand role permissions system
 
 👤 Author
-BETSELOT ZELEKE
+Betselot zeleke
+
